@@ -1,9 +1,12 @@
 package org.uoguelph.engg4450.labs;
 
 import org.junit.*;
+import static org.hamcrest.CoreMatchers.*;
+import static org.junit.Assert.fail;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;
+import static org.junit.Assert.assertThat;
 
 public class CalculatorTest {
     private static ICalculator calculator;
