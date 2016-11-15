@@ -1,4 +1,4 @@
-# desktop-java-simple
+# Lab4 Developer Workspace
 
 # Developer Workspace
 
