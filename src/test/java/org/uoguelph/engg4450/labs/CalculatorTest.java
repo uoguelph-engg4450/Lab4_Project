@@ -48,13 +48,13 @@ public class CalculatorTest {
     @Test
     public void testEqual(){
         boolean result = calculator.equalIntegers(20, 20);
-        assertFalse(result);
+        assertTrue(result);
     }
     
     @Ignore
     @Test
     public void testSubtraction(){
-        int result = 10 - 3;
+        int result = calculator.subtract(10,1);
         assertTrue(result == 9);
     }     
 }
