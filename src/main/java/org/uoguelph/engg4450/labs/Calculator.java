@@ -16,7 +16,7 @@ public class Calculator implements ICalculator{
     
     public int divide(int a, int b) throws Exception{
         if (b == 0){
-            throw new Exception("Denominator can't be zero");
+            throw new Exception("Divisor can't be zero");
         } 
         
         return a/b;
